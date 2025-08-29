@@ -50,6 +50,9 @@ a:hover {
 nav {
     background-color: #1e3a8a;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -70,12 +73,9 @@ nav ul li {
 
 header {
     background-color: #1e3a8a;
-    height: 200px;
+    height: 120px;
     width: 100%;
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 .linea-separadora {
